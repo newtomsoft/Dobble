@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Text;
 
 namespace DobbleGenerator
@@ -73,7 +72,7 @@ namespace DobbleGenerator
             for (int i = 0; i < DobbleCards.Count - ValuesInCardNumber; i++)
             {
                 stringBuilder.Append(DobbleCards[i].ToString());
-                if ((i +1) % (ValuesInCardNumber -1) == 0)
+                if ((i + 1) % (ValuesInCardNumber - 1) == 0)
                     stringBuilder.Append("\n");
                 else
                     stringBuilder.Append(separator);
